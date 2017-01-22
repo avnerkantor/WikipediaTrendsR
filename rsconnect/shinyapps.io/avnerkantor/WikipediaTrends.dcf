@@ -3,8 +3,8 @@ title: WikipediaTrends
 account: avnerkantor
 server: shinyapps.io
 appId: 152523
-bundleId: 687340
+bundleId: 687369
 url: https://avnerkantor.shinyapps.io/WikipediaTrends/
-when: 1485106699.31861
+when: 1485109131.61604
 asMultiple: FALSE
 asStatic: FALSE
