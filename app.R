@@ -5,7 +5,7 @@ library(reshape2)
 library(shiny)
 
 ui<-fluidPage(title="Wikipedia Articles Trends",
-              h1("Wikipedia Articles Trends"),
+              h2("Wikipedia Old Trends"),
               column(4,
                      textInput("entry", "Article name", "Love"),
                      textInput("language", "Wikipedia language", "en"),
@@ -13,6 +13,7 @@ ui<-fluidPage(title="Wikipedia Articles Trends",
                                     start = "2008-01-01",
                                     end   = "2010-03-01"),
                      downloadButton("downloadData", "Download")
+                     
               ),
               column(6,
                      plotlyOutput("ggplotTrends", width = "400px"))
